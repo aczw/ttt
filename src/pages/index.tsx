@@ -91,7 +91,7 @@ const Board = ({
           value={symbol}
           background={background}
           onSquareClick={() => handleClick({ x, y })}
-        />
+        />,
       );
     });
   });
@@ -303,7 +303,7 @@ const Game = () => {
     <div className="flex flex-col items-start gap-6 md:flex-row">
       <div className="flex flex-col items-start justify-center gap-6 lg:flex-row">
         <div className="mt-10 min-h-full max-w-[295px] rounded-3xl bg-gray-200 p-5 md:mt-0">
-          <Link href="https://aczw.dev/">
+          <Link href="https://charl.sh">
             <button className="w-full rounded-xl bg-gray-50 py-[6px] font-mono italic hover:bg-gray-100">
               go back home
             </button>
